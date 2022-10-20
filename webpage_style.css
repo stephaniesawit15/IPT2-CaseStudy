@@ -144,3 +144,19 @@ p{
     width: 40%;
     border-radius: 10px;
   }
+  
+    .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    top: 10px;
+    left: 98%;
+    padding: 0px 5px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: white;
+    cursor: pointer;
+  }
