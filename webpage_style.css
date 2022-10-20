@@ -57,3 +57,37 @@ body{
     height: 60px;
 
 }
+
+h1{
+    font-family: poppins;
+    font-weight: bolder;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+.text, p, label{
+    font-family: poppins;
+    font-weight: bolder;
+    color: white;
+    font-size: large;
+    padding: 5px;
+}
+
+.icon{
+    padding: 0; 
+    position: relative;
+}
+
+.icon button i{
+    font-size: 100px;
+    color: white;
+}
+
+.div2-content2:hover{
+    background-color: #3d5a80;
+}
+
+button{
+    background: none;
+    border: none;
+}
