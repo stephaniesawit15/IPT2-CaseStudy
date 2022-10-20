@@ -9,6 +9,10 @@ body{
     grid-template-columns: 50% 50%;
 }
 
+.div1, .div2{
+    padding: 29.5px 20px 38.5px 20px;
+}
+
 .div1{
     background-color: #293241;
     padding: 16px;
@@ -20,4 +24,36 @@ body{
     border-radius: 10px;
     top: auto;
     
+}
+
+.div2-v2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+}
+.div2{
+    background-color: white;
+}
+.div1 img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #888;
+    border-radius: 50%;
+}
+
+.div2-content{
+    margin: 0 20px 20px 20px;
+    padding: 10px 40px;
+    background-color: #293241;
+    border-radius: 5px;
+    justify-content: center;
+}
+.div2-content2{
+    margin: 20px 50px;
+    padding: 10px 10px 100px 10px;
+    background-color: #293241;
+    border-radius: 10px;
+    height: 60px;
+
 }
