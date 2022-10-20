@@ -195,7 +195,12 @@
             hobbies.style.display = "hobbies";
           }
         }
-		
+		var contact = document.getElementById('contact');
+        window.onclick = function(event) {
+          if (event.target == contact) {
+            contact.style.display = "none";
+          }
+        }
 		</script>   
 
 </body>
