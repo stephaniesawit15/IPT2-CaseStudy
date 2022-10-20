@@ -159,6 +159,44 @@
         </div>
     </div>
     </div>
+	
+	 <script>
+        var about_me = document.getElementById('about_me');
+        window.onclick = function(event) {
+          if (event.target == about_me) {
+            about_me.style.display = "none";
+          }
+        } 
+
+        var education = document.getElementById('education');
+        window.onclick = function(event) {
+          if (event.target == education) {
+            education.style.display = "none";
+          }
+        }
+
+        var skills = document.getElementById('skills');
+        window.onclick = function(event) {
+          if (event.target == skills) {
+            skills.style.display = "none";
+          }
+        }
+
+        var experience = document.getElementById('experience');
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            experience.style.display = "none";
+          }
+        }
+
+        var hobbies = document.getElementById('hobbies');
+        window.onclick = function(event) {
+          if (event.target == hobbies) {
+            hobbies.style.display = "hobbies";
+          }
+        }
+		
+		</script>   
 
 </body>
 </html>
