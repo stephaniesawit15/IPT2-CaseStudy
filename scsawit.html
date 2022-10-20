@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -49,12 +49,13 @@
         height: 100vh;
         overflow-x:hidden;
         background-color: #333;
+        border-radius: 10px;
     }
 
     .avatar{
         border-radius: 100px;
-        height: 200px;
-        width: 200px;
+        height: 220px;
+        width: 210px;
         margin-top: 50px;
         margin-bottom: 0;
     }
@@ -73,7 +74,7 @@
         margin-right: 80px;
     }
 
-    .title1{
+    .title-column1{
         font-family: 'Bebas Neue';
         background-color: #333;
         color: #fff;
@@ -84,6 +85,36 @@
         letter-spacing: 3px;
     }
 
+    .contents{
+        margin-left: 5%;
+        font-family: 'Quicksand'
+    }
+
+    .educ-level{
+        font-family: 'Quicksand';
+    }
+
+    .school{
+        font-family: 'Quicksand';
+        text-indent: 20px;
+    }
+
+    .title-column2{
+        border: 1px #fff solid;
+        width:fit-content;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Bebas Neue';
+        padding-left: 10px;
+        padding-right: 10px;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    ::selection {
+        color: #fff;
+        background: #333;
+    }
 
 
 </style>
@@ -102,7 +133,7 @@
     <!--<hr class="solid">-->
     <div class="container">
         <div class="column1">
-            <p class="title1">PERSONAL INFORMATION</p>
+            <p class="title-column1">PERSONAL INFORMATION</p>
 
             <div class="contents">
                 <p><strong>Age: </strong>21</p>
@@ -111,10 +142,22 @@
                 <p><strong>Course: </strong>Bachelor of Science in Information Technology</p>
                 <p><strong>Section: </strong>WMA 4B</p>
             </div>
+
+            <p class="title-column1">EDUCATION</p>
+            <div class="contents">
+                <p class="educ-level"><strong>PRIMARY</strong></p>
+                    <p class="school">Lomboy Elementary School: 2007-2013</p>
+                <p class="educ-level"><strong>SECONDARY</strong></p>
+                    <p class="school">Guevara High School: 2013-2019</p>
+                <p class="educ-level"><strong>TERTIARY</strong></p>
+                    <p class="school">Tarlac State University: 2019-Present</p>
+            </div>
         </div>
         
         <div class="column2">
-            contact me
+            <center>
+            <p class="title-column2">CONTACT ME</p>
+            </center>
         </div>
     </div>
 
